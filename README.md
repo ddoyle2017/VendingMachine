@@ -23,7 +23,8 @@ When a payment is accepted, the Vending Machine changes to the Vending state, wh
 
 ___
 ## Classes
-![Class Diagram]()
+![Class Diagram](/diagrams/vending-machine-classes.png)
+***Fig 2:*** *Class diagram for the Vending Machine.*
 
 ### IProduct
 >An interface that defines the fields and methods necessary for basic Vending Machine operations. Name, price, the state of the wrapper is held here. An interface was chosen so down the line the Vending Machine can support other products that implement this interface, like a Chip or Ice Cream class.
