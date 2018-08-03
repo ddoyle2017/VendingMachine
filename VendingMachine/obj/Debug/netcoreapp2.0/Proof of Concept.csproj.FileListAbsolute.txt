@@ -1,0 +1,11 @@
+/Users/danieldoyle/Desktop/Spectrum Assessment/Proof of Concept/obj/Debug/netcoreapp2.0/Proof of Concept.csprojResolveAssemblyReference.cache
+/Users/danieldoyle/Desktop/Spectrum Assessment/Proof of Concept/obj/Debug/netcoreapp2.0/Proof of Concept.csproj.CoreCompileInputs.cache
+/Users/danieldoyle/Desktop/Spectrum Assessment/Proof of Concept/obj/Debug/netcoreapp2.0/Proof of Concept.AssemblyInfoInputs.cache
+/Users/danieldoyle/Desktop/Spectrum Assessment/Proof of Concept/obj/Debug/netcoreapp2.0/Proof of Concept.AssemblyInfo.cs
+/Users/danieldoyle/Desktop/Spectrum Assessment/Proof of Concept/bin/Debug/netcoreapp2.0/Proof of Concept.deps.json
+/Users/danieldoyle/Desktop/Spectrum Assessment/Proof of Concept/bin/Debug/netcoreapp2.0/Proof of Concept.runtimeconfig.json
+/Users/danieldoyle/Desktop/Spectrum Assessment/Proof of Concept/bin/Debug/netcoreapp2.0/Proof of Concept.runtimeconfig.dev.json
+/Users/danieldoyle/Desktop/Spectrum Assessment/Proof of Concept/bin/Debug/netcoreapp2.0/Proof of Concept.dll
+/Users/danieldoyle/Desktop/Spectrum Assessment/Proof of Concept/bin/Debug/netcoreapp2.0/Proof of Concept.pdb
+/Users/danieldoyle/Desktop/Spectrum Assessment/Proof of Concept/obj/Debug/netcoreapp2.0/Proof of Concept.dll
+/Users/danieldoyle/Desktop/Spectrum Assessment/Proof of Concept/obj/Debug/netcoreapp2.0/Proof of Concept.pdb
