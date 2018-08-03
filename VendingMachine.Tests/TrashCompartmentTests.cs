@@ -16,9 +16,9 @@ namespace Tests
         [Test]
         public void AddWrapper_IncrementsCount()
         {
-            int currentCount = trash.getCount();
-            trash.addWrapper();
-            Assert.That(trash.getCount(), Is.GreaterThan(currentCount));
+            int currentCount = trash.GetCount();
+            trash.AddWrapper();
+            Assert.That(trash.GetCount(), Is.GreaterThan(currentCount));
         }
     }
 }

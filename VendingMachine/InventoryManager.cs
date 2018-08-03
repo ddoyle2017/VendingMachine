@@ -54,7 +54,7 @@ namespace VendingMachine
                     return false;
                 }
                 shelves[candyChoice.flavor].GetItem(candyName).Unwrap();
-                trash.addWrapper();
+                trash.AddWrapper();
             }
             catch (Exception ex)
             {

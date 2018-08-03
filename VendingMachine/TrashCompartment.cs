@@ -11,12 +11,12 @@ namespace VendingMachine
             this.count = 0;
         }
 
-        public void addWrapper()
+        public void AddWrapper()
         {
             this.count++;
         }
 
-        public int getCount()
+        public int GetCount()
         {
             return this.count;
         }

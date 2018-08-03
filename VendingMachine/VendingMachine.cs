@@ -11,9 +11,9 @@ namespace VendingMachine
         private InventoryManager inventory;
         private TransactionManager transactions;
         private string candyChoice;
-        private Dictionary<string, Candy> products;
+        private IDictionary<string, Candy> products;
 
-        public VendingMachine(Dictionary<string, Candy> products)
+        public VendingMachine(IDictionary<string, Candy> products)
         {
             this.currentState = State.Active;
             this.inventory = new InventoryManager(products);
