@@ -18,6 +18,7 @@ to run through the entire test suite.
 ## Program Design
 
 ![State Diagram](/diagrams/state-machine-diagram.png)
+
 ***Fig 1:*** *State diagram for the Vending Machine.*
 
 My approach for designing the vending machine was to model it as a finite state machine. I chose this approach because a vending machine does not need to keep a history of previous states, the next transition only depends on the current state.
@@ -39,6 +40,7 @@ When a payment is accepted, the Vending Machine changes to the Vending state, wh
 ___
 ## Classes
 ![Class Diagram](/diagrams/vending-machine-classes.png)
+
 ***Fig 2:*** *Class diagram for the Vending Machine.*
 
 ### IProduct
@@ -115,6 +117,7 @@ CREATE TABLE Inventory (
 
 ___
 ![Database Diagram](/diagrams/vending-machine-database.png)
+
 ***Fig 3:*** *Entity Relationship Diagram for the Vending Machine's database.*
 
 This is the schema of the Vending Machine's database. The Candies Table contains a unique record for each possible candy product that is sold in the vending machine. Contains pricing information, wrapper color, and flavor. The Inventory Table holds all information about the *current* inventory of the vending machine. What candies are in stock, which shelf they're stored in, as well as what date-time they were added is kept track of.
