@@ -35,8 +35,12 @@ namespace Tests
             testShelf.AddNewItem(twixBar, 10);
             testShelf.AddNewItem(snickers, 20);
 
-            IProduct results = testShelf.GetItem("Twix");
+            int previousItemCount = testShelf.items[twixBar.name].Count;
+            IProduct results = testShelf.GetItem(twixBar.name);
+            int currentItemCount = testShelf.items[twixBar.name].Count;
+
             Assert.That(results, Is.EqualTo(twixBar));
+            Assert.That(previousItemCount, Is.GreaterThan(currentItemCount));
         }
 
         [Test]

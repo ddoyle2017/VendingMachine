@@ -24,20 +24,43 @@ namespace VendingMachine
 
         public bool IsCandyInStock(string candyName)
         {
-            Candy candyChoice;
-            if (!products.TryGetValue(candyName, out candyChoice)) return false;
-            Console.WriteLine(shelves[candyChoice.flavor].GetItemStock(candyName));
-
+            try
+            {
+                Candy candyChoice;
+                if (!products.TryGetValue(candyName, out candyChoice))
+                {
+                    return false;
+                }
+                if (shelves[candyChoice.flavor].GetItemStock(candyName) <= 0 )
+                {
+                    return false;
+                } 
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                return false;
+            }
             return true;
         }
 
         public bool DispenseCandy(string candyName)
         {
-            Shelf targetShelf;
-            if (!shelves.TryGetValue(candyName, out targetShelf)) return false;
-            targetShelf.GetItem(candyName).Unwrap();
-            trash.addWrapper();
-
+            try
+            {
+                Shelf targetShelf;
+                if (!shelves.TryGetValue(candyName, out targetShelf))
+                {
+                    return false;
+                }
+                targetShelf.GetItem(candyName).Unwrap();
+                trash.addWrapper();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                return false;
+            }
             return true;
         }
 

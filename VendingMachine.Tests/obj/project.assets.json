@@ -5658,23 +5658,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/danieldoyle/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\ddoyle2\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/danieldoyle/Desktop/Spectrum Assessment/Proof of Concept/VendingMachine.Tests/VendingMachine.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\ddoyle2\\Desktop\\Knowledge_Transfer\\VendingMachine\\VendingMachine.Tests\\VendingMachine.Tests.csproj",
       "projectName": "VendingMachine.Tests",
-      "projectPath": "/Users/danieldoyle/Desktop/Spectrum Assessment/Proof of Concept/VendingMachine.Tests/VendingMachine.Tests.csproj",
-      "packagesPath": "/Users/danieldoyle/.nuget/packages/",
-      "outputPath": "/Users/danieldoyle/Desktop/Spectrum Assessment/Proof of Concept/VendingMachine.Tests/obj/",
+      "projectPath": "C:\\Users\\ddoyle2\\Desktop\\Knowledge_Transfer\\VendingMachine\\VendingMachine.Tests\\VendingMachine.Tests.csproj",
+      "packagesPath": "C:\\Users\\ddoyle2\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ddoyle2\\Desktop\\Knowledge_Transfer\\VendingMachine\\VendingMachine.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/danieldoyle/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\ddoyle2\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -5685,8 +5685,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "/Users/danieldoyle/Desktop/Spectrum Assessment/Proof of Concept/VendingMachine/VendingMachine.csproj": {
-              "projectPath": "/Users/danieldoyle/Desktop/Spectrum Assessment/Proof of Concept/VendingMachine/VendingMachine.csproj"
+            "C:\\Users\\ddoyle2\\Desktop\\Knowledge_Transfer\\VendingMachine\\VendingMachine\\VendingMachine.csproj": {
+              "projectPath": "C:\\Users\\ddoyle2\\Desktop\\Knowledge_Transfer\\VendingMachine\\VendingMachine\\VendingMachine.csproj"
             }
           }
         }
