@@ -48,12 +48,12 @@ namespace VendingMachine
         {
             try
             {
-                Shelf targetShelf;
-                if (!shelves.TryGetValue(candyName, out targetShelf))
+                Candy candyChoice;
+                if (!products.TryGetValue(candyName, out candyChoice))
                 {
                     return false;
                 }
-                targetShelf.GetItem(candyName).Unwrap();
+                shelves[candyChoice.flavor].GetItem(candyName).Unwrap();
                 trash.addWrapper();
             }
             catch (Exception ex)

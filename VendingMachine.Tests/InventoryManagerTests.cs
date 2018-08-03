@@ -35,8 +35,8 @@ namespace Tests
         [Test]
         public void IsCandyInStock_OutOfStockCandy_ReturnsFalse()
         {
-            // inventory.DispenseCandy(candyB.name);
-            // Assert.That(inventory.IsCandyInStock(candyB.name), Is.EqualTo(false));
+            inventory.DispenseCandy(candyB.name);
+            Assert.That(inventory.IsCandyInStock(candyB.name), Is.EqualTo(false));
         }
 
         [Test]
@@ -48,13 +48,13 @@ namespace Tests
         [Test]
         public void DispenseCandy_ValidCandy_ReturnsTrue()
         {
-            // Assert.That(inventory.DispenseCandy(candyA.name), Is.EqualTo(true));
+            Assert.That(inventory.DispenseCandy(candyA.name), Is.EqualTo(true));
         }
 
         [Test]
         public void DispenseCandy_InvalidCandy_ReturnsFalse()
         {
-            // Assert.That(inventory.DispenseCandy("random name"), Is.EqualTo(false));
+            Assert.That(inventory.DispenseCandy("random name"), Is.EqualTo(false));
         }
 
         [Test]

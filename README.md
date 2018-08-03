@@ -87,7 +87,7 @@ ___
 ![Database Diagram](/diagrams/vending-machine-database.png)
 ***Fig 3:*** *Entity Relationship Diagram for the Vending Machine's database.*
 
-This is the schema of the Vending Machine's database. The Candies Table contains a unique record for each possible candy product that is sold in the vending machine. Contains pricing information, wrapper color, and flavor. The Inventory Table holds all information about the *current* inventory of the vending machine. What candies are in stock, which shelf they're stored in, as well as what date-time they were added is kept track of. 
+This is the schema of the Vending Machine's database. The Candies Table contains a unique record for each possible candy product that is sold in the vending machine. Contains pricing information, wrapper color, and flavor. The Inventory Table holds all information about the *current* inventory of the vending machine. What candies are in stock, which shelf they're stored in, as well as what date-time they were added is kept track of.
 
 The Purchases Table is for recording each *successful* transaction at the vending machine, i.e. candy choosen, money is accepted, item is dispense, wrapper is stored and removed. What was purchased, as well as the date-time is stored here.
 

@@ -19,6 +19,7 @@ namespace VendingMachine
             this.inventory = new InventoryManager(products);
             this.transactions = new TransactionManager(products);
             this.products = products;
+            this.candyChoice = String.Empty;
 
             // This is used mainly for testing. A production version of this app would read inventory data from another source
             // like a database or resource file, and then stock the items accordingly.
@@ -41,8 +42,8 @@ namespace VendingMachine
                 this.currentState = State.CheckingInventory;
                 if (inventory.IsCandyInStock(candyName))
                 {
-                    AcceptChoice();
                     this.candyChoice = candyName; 
+                    AcceptChoice();
                 }
                 else
                 {
@@ -118,7 +119,7 @@ namespace VendingMachine
         private void AcceptChoice()
         {
             if (currentState != State.CheckingInventory) return;
-            Console.WriteLine("You have chosen: " + candyChoice);
+            Console.WriteLine("You have chosen: " + this.candyChoice);
             this.currentState = State.Processing;
         }
 
