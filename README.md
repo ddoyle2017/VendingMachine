@@ -1,4 +1,19 @@
 # Vending Machine
+To run the application, open a terminal and navigate to `/VendingMachine/VendingMachine` folder. Then, use the command:
+
+```
+dotnet run
+```
+
+to run the actual app. The vending machine runs on a loop. To stop the program, press **CTRL + C**.
+
+The unit tests are in the `/VendingMachine/VendingMachine.Tests` folder. To run the test suite, navigate to that folder and use the command:
+
+```
+dotnet test
+```
+
+to run through the entire test suite.
 
 ## Program Design
 
